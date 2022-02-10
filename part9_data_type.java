@@ -1,4 +1,4 @@
-public class data_type_part9 {
+public class part9_data_type {
     public static void main(String[] args) {
         /*
          * byte + short = integr

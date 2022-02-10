@@ -1,4 +1,4 @@
-public class operators_expression_part7 {
+public class part7_operators_expression {
     public static void main(String[] args) {
         
         // arithmetic operation

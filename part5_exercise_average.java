@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercise_average_part5 {
+public class part5_exercise_average {
     public static void main(String[] args) {
         System.out.println("for persentage calculation");
         Scanner sc = new Scanner(System.in);

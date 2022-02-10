@@ -1,4 +1,4 @@
-public class variable_datatype_part2 {
+public class part2_variable_datatype {
     public static void main (String[] args) {
         System.out.println("the sum of these number is: ");
         int num1 = 12;

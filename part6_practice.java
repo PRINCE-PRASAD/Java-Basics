@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class practice_part6 {
+public class part6_practice {
     public static void main(String[] args) {
         // problem 1
         int a = 4;

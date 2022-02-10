@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class practice_part10 {
+public class part10_practice {
 
     public static void main(String[] args) {
         /*
