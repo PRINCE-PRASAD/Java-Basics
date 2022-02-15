@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class basic_strings_part11 {
+public class part11_basic_strings {
     public static void main(String[] args) {
 
         

@@ -1,4 +1,4 @@
-public class part12_java_parctice {
+public class part13_java_parctice {
     public static void main(String[] args) {
 
         // problem 1

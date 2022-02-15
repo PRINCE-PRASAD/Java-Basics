@@ -1,6 +1,6 @@
 import javax.management.ValueExp;
 
-public class part11_java_strings {
+public class part12_java_strings {
     public static void main(String[] args) {
         String name = "Hello";
         System.out.println(name);
