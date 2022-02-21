@@ -1,14 +1,11 @@
+import java.util.Scanner;
+
 public class part16_java {
     public static void main(String[] args) {
-        String var = "gupta";
-
-        switch (key) {
-            case value:
-                
-                break;
-        
-            default:
-                break;
-        }
+        int age;
+        System.out.println("tell me about your marks");
+Scanner sc = new Scanner(System.in);
+age
+                  
     }
 }
