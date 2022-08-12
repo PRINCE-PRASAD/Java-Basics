@@ -2,6 +2,7 @@ import javax.security.auth.login.LoginContext;
 
 public class part25_method_or_function {
     // if u decleare a function inside a class it called methods
+    // if u write static it means u don't have create new object for using that functon
     // declearing a function or method for new way
     static int logic(int x, int y) {
         int z;
