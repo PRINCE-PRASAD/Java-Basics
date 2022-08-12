@@ -1,4 +1,4 @@
-public class part3_literals {
+public class part03_literals {
     public static void main(String[] args) {
         byte age = 25;
         int age2 = 45;

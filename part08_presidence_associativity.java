@@ -1,4 +1,4 @@
-public class part8_presidence_associativity {
+public class part08_presidence_associativity {
     public static void main(String[] args) {
         // presidence & associativity
         int a = 6 * 5 - 34 / 2;
