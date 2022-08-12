@@ -14,7 +14,23 @@ public class part25_method_or_function {
         return z;
     }
 
-    // old way for doing a similar job in different variable
+
+    //  -------------------------------------------------------
+    // created two function int and array  
+
+    //case - 1 for int
+    static void change(int p){
+        p=45;
+    }
+// case - 2 for array
+    static void change1(int [] arr){
+        arr[0]= 98;
+    }
+    // ---------------------------------------------------------
+
+
+//-----------------------------------------------------------------------------
+    // old way for doing a similar job by using different variable
     public static void main(String[] args) {
         int a = 2;
         int b = 6;
@@ -43,5 +59,18 @@ public class part25_method_or_function {
         int e;
         e = logic(u, h);
         System.out.println(e);
+
+//---------------------------------------------------------------------------------------
+        // case 1
+        int o = 85;
+        change(o);
+        System.out.println("the value of o after running change is: " + o);
+
+        // case 2
+        int [] marks = {45, 89, 23, 96, 33, 66};
+        System.out.println("the value of array [0] after running the change1 is: " + marks[0]);
+
     }
 }
+// conclusion - In case 1 ("int") the value remain same as written in main "o=85".
+// but in case 2 ("array") the value of array "marks[0]" has changed as per the static function call or method call where marks[0]= 45;
