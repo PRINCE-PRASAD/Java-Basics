@@ -3,9 +3,11 @@ import java.util.Scanner;
 /**
  * part24_practice_array
  */
-public class part24_practice_array {
+public class part24_practice_array 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
 
         // create an array of 5 float and calculate their sum
         /*
@@ -40,20 +42,27 @@ public class part24_practice_array {
         Scanner sc = new Scanner(System.in);
         int[][] number;
         System.out.println(" enter the value of x(Row) and y(Column)");
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        number = new int[a][b];
-        for (int i = 0; i < number.length; i++) {
+                int a = sc.nextInt();
+                int b = sc.nextInt();
+                number = new int[a][b];
+        for (int i = 0; i < number.length; i++)
+        {
             System.out.println(" ");
             System.out.printf("enter value of %d", i);
             number[i] = sc.nextInt();
-            for (int j = 0; j < number[i].length; j++) {
-                System.out.printf("enter value of %d", j);
-                number[j] = sc.nextInt();
-                
-            }
-        
+                for (int j = 0; j < number[i].length; j++) 
+                {
+                    System.out.printf("enter value of %d", j);
+                    number[j] = sc.nextInt();
+                }
         }
+                for (int i = 0; i < number.length; i++)
+                {
+                    for (int j = 0; j < number[i].length; j++) 
+                    {
+                        System.out.printf("%4d",number[i][j]);
+                    }
 
+                }      
     }
 }
