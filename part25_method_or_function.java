@@ -68,6 +68,7 @@ public class part25_method_or_function {
 
         // case 2
         int [] marks = {45, 89, 23, 96, 33, 66};
+        change1(marks);
         System.out.println("the value of array [0] after running the change1 is: " + marks[0]);
 
     }
