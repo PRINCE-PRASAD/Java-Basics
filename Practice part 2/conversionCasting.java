@@ -1,7 +1,7 @@
 /**
  * conversionCasting
  */
-public class conversionCasting {
+public class ConversionCasting {
 public static void main(String[] args) {
 
     // --------------------case1-------------------
