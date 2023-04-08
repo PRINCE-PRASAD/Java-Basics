@@ -1,7 +1,7 @@
 /**
- * addint
+ * AddInt
  */
-public class addint {
+public class Addint{
 
     public static void main(String[] args) {
         int num1 = 8;
