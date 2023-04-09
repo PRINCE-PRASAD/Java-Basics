@@ -7,11 +7,11 @@ public class ConditionalStatement {
         int x = 8;
         int y = 7;
 
-        if(x>5 && x<10)
+        if(x>5 && x<10) //if both condition are true 
         System.out.println("everything is ok");
         else
         System.out.println("bye");
-        
+
 
         System.out.println("-----------------------------------");
        
