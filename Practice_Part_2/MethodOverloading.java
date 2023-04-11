@@ -26,4 +26,5 @@ public class MethodOverloading {
     }
 }
 
-// here in overloading the nume of method are same but the paramerer inside the method can be different
+// Here in overloading the name of method are same but the paramerer inside the method can be different 
+// thats why it dont prvide any error with same name 
