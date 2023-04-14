@@ -40,7 +40,7 @@ public class Encapsulation {
         obj1.setAge(56); // seting the value
         obj1.setName("Jivan");
         ;
-        // System.out.println(obj.age + " : " + obj.name); //if method is not private we can call it using this method.
+        // System.out.println(obj.age + " : " + obj.name);   //if method is not private we can call it using this method.
         System.out.println(obj.getName() + " : " + obj.getAge());
         System.out.println(obj1.getName() + " : " + obj1.getAge());
     }
