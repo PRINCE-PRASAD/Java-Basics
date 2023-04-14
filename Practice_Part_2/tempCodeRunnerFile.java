@@ -1,2 +1,2 @@
-
-        // String name = new String("prince");
+ obj.age=56;
+        obj.name="Jana";
