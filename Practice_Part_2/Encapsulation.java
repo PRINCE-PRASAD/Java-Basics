@@ -21,12 +21,14 @@ class Human1 {
     }
     public void setAge(int a) {
         age = a;
+        // this.age = age; // here we use this for showing that this.age variable is instance variable 
     }
     public String getName() {
         return name;
     }
     public void setName(String n) {
         name = n;
+        // this.name = name;  // this keyword use for show the current object.
     }
 }
 
