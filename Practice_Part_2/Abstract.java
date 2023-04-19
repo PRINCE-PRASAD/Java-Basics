@@ -40,7 +40,7 @@ abstract class Swift extends Car {
     }
 }
 
-class Swift_v2 extends Swift{
+class Swift_v2 extends Swift{     //concrete class
     public void fly() {
         System.out.println("flying.............");
     }
@@ -48,7 +48,7 @@ class Swift_v2 extends Swift{
 public class Abstract {
 
     public static void main(String[] args) {
-        Car obj = new Swift_v2(); // u can not create the direct object of abstract class.
+        Car obj = new Swift_v2(); 
         obj.Playmusic();
         obj.drive();
         obj.fly();
