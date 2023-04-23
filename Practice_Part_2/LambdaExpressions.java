@@ -99,3 +99,4 @@ public class LambdaExpressions {
     }
 }
 // Show output using Lambda with parameters with return type 
+//  lamda use only in FunctionalInterface
